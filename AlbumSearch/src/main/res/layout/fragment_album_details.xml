@@ -1,0 +1,49 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/bg_actionbar">
+
+    <mani.beatsalbumsearch.ui.view.ObservableScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/bg_actionbar">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/bg_album_details">
+
+                <ImageView android:id="@+id/albumImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View android:id="@+id/placeholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ListView
+                    android:id="@+id/albumTrackList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"
+                    android:dividerHeight="1dp"/>
+            </LinearLayout>
+
+            <include layout="@layout/album_detail_sticky_layout"/>
+        </FrameLayout>
+    </mani.beatsalbumsearch.ui.view.ObservableScrollView>
+
+    <include
+        layout="@layout/progress_state_layout"/>
+
+</FrameLayout>

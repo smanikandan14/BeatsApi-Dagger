@@ -1,0 +1,43 @@
+{
+    "code": "OK",
+    "data": {
+        "album_family_id": "90600053",
+        "artist_display_name": "Ki: Theory",
+        "canonical": true,
+        "duration": 2802,
+        "edited_version": false,
+        "essential": false,
+        "id": "al90600053",
+        "parental_advisory": false,
+        "popularity": 218,
+        "rating": 0,
+        "refs": {
+            "artists": [
+                {
+                    "display": "Ki: Theory",
+                    "id": "ar48161",
+                    "ref_type": "artist"
+                }
+            ],
+            "label": {
+                "display": "Kringer Records",
+                "id": "lb926765",
+                "ref_type": "label"
+            },
+            "tracks": [
+                {
+                    "display": "The Man I Left Behind",
+                    "id": "tr90600059",
+                    "ref_type": "track"
+                }
+            ]
+        },
+        "release_date": "2013-10-29",
+        "release_format": "LP",
+        "streamable": true,
+        "title": "Kitty Hawk",
+        "total_companion_albums": 0,
+        "total_tracks": 12,
+        "type": "album"
+    }
+}

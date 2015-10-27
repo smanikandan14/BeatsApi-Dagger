@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bg_actionbar" type="color">#212121</item>
+    <item name="bg_search_layout" type="color">#101010</item>
+    <item name="bg_search_result_header" type="color">#D8D8D8</item>
+    <item name="bg_screen" type="color">#EAEAEA</item>
+    <item name="bg_album_details" type="color">#131313</item>
+    <item name="bg_album_track" type="color">#E9EAEC</item>
+
+
+    <!-- fonts -->
+    <item name="font_white" type="color">#ffffff</item>
+
+    <item name="font_search_text" type="color">#CCCCCC</item>
+    <item name="font_search_result" type="color">#F9F9F9</item>
+    <item name="font_search_hint_text" type="color">#808080</item>
+
+    <item name="font_album_list_title" type="color">#333333</item>
+    <item name="font_album_list_artist" type="color">#666666</item>
+    <item name="font_album_by" type="color">#969696</item>
+
+</resources>

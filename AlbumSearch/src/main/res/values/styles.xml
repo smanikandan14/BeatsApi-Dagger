@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/bg_screen</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style> -->
+
+    <!-- ActionBar styles -->
+    <!-- <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/bg_actionbar</item>
+    </style> -->
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/bg_actionbar</item>
+        <item name="colorPrimaryDark">@color/bg_actionbar</item>
+        <item name="colorAccent">#f00ff1</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.Base.WithActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/bg_actionbar</item>
+        <item name="colorPrimaryDark">@color/bg_actionbar</item>
+        <item name="colorAccent">#f00ff1</item>
+    </style>
+
+    <style name="Transparent_edit" parent="android:Widget.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/font_search_text</item>
+        <item name="android:textColorHint">@color/font_search_hint_text</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:textSize">@dimen/search_text_size</item>
+        <item name="android:cursorVisible">true</item>
+    </style>
+
+</resources>

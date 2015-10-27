@@ -1,0 +1,32 @@
+{
+    "code": "OK",
+    "data": {
+        "artist_display_name": "Ki: Theory",
+        "disc_number": 1,
+        "duration": 254,
+        "edited_version": false,
+        "id": "tr90600189",
+        "parental_advisory": false,
+        "popularity": 17,
+        "refs": {
+            "album": {
+                "display": "Kitty Hawk",
+                "id": "al90600053",
+                "ref_type": "album"
+            },
+            "artists": [
+                {
+                    "display": "Ki: Theory",
+                    "id": "ar48161",
+                    "ref_type": "artist"
+                }
+            ]
+        },
+        "release_date": "2013-10-29",
+        "streamable": true,
+        "streamable_replacement": {},
+        "title": "Foot Falls",
+        "track_position": 12,
+        "type": "track"
+    }
+}

@@ -1,0 +1,56 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:contentInsetStart="0dp"
+    android:contentInsetLeft="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:background="?attr/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:id="@+id/search_layout"
+        android:layout_marginLeft="@dimen/search_layout_left_margin"
+        android:layout_marginRight="@dimen/search_layout_left_margin"
+        android:layout_marginTop="@dimen/search_layout_top_margin"
+        android:layout_marginBottom="@dimen/search_layout_top_margin"
+        android:background="@drawable/bg_search"
+        android:padding="@dimen/padding_normal">
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="@dimen/search_icon_size"
+            android:layout_height="@dimen/search_icon_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_search"/>
+
+        <ImageView
+            android:id="@+id/clearSearchIcon"
+            android:layout_width="@dimen/search_icon_size"
+            android:layout_height="@dimen/search_icon_size"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_dislike"
+            android:layout_alignParentRight="true"/>
+
+        <EditText
+            android:id="@+id/searchEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Albums"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/clearSearchIcon"
+            android:layout_toRightOf="@id/searchIcon"
+            android:focusable="true"
+            style="@style/Transparent_edit"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

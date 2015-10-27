@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_screen">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/search_toolbar"/>
+
+    <TextView
+        android:id="@+id/albumTitle"
+        android:text="@string/albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/font_album_list_artist"
+        android:background="@color/bg_search_result_header"/>
+
+    <mani.beatsalbumsearch.ui.view.EndlessListView
+        android:id="@+id/searchResultsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

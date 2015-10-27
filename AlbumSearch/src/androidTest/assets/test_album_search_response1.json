@@ -1,0 +1,22 @@
+{
+    "code": "OK",
+    "data": [
+        {
+            "detail": "EndeverafteR",
+            "display": "Kiss Or Kill",
+            "id": "al33225285",
+            "related": {
+                "display": "Kiss Or Kill",
+                "id": "al33225285",
+                "ref_type": "album"
+            },
+            "result_type": "album",
+            "type": "search_result"
+        }
+    ],
+    "info": {
+        "count": 20,
+        "offset": 0,
+        "total": 3102
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeatsAlbumSearch</string>
+    <string name="albums">ALBUMS</string>
+
+    <string name="album_by">Album by</string>
+    <string name="songs">songs</string>
+
+    <string name="album_lookup_error_msg">Sorry, Album information is not available right now</string>
+
+</resources>
